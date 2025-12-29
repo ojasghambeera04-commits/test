@@ -1,0 +1,17 @@
+{
+  "pages": {
+    "login_page.py": "# Defines the LoginPage class with methods to interact with the login page.\nclass LoginPage:\n    pass\n"
+  },
+  "tests": {
+    "test_login.py": "# Contains test cases for login functionality.\ndef test_login():\n    pass\n"
+  },
+  "utils": {
+    "logger.py": "# Provides logging functionality for the framework.\ndef get_logger():\n    pass\n"
+  },
+  "config": {
+    "config.yaml": "# Stores configuration settings such as URLs and credentials.\nurl: \"http://example.com\"\nusername: \"user\"\npassword: \"pass\"\n"
+  },
+  "conftest.py": "# Defines reusable fixtures for driver setup and teardown.\nimport pytest\n",
+  "pytest.ini": "# Configures Pytest settings such as markers and test discovery.\n[pytest]\nmarkers = login\n",
+  "requirements.txt": "# Lists all dependencies required for the framework.\npytest\nselenium\n"
+}
