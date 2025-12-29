@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "message": "File structure created and pushed to main successfully",
+  "files_created": [
+    "ojasghambeera04-commits/test1/pages/base_page.py",
+    "ojasghambeera04-commits/test1/pages/login_page.py",
+    "ojasghambeera04-commits/test1/tests/test_login.py",
+    "ojasghambeera04-commits/test1/utils/logger.py",
+    "ojasghambeera04-commits/test1/config/config.yaml",
+    "ojasghambeera04-commits/test1/conftest.py",
+    "ojasghambeera04-commits/test1/pytest.ini",
+    "ojasghambeera04-commits/test1/requirements.txt"
+  ]
+}
