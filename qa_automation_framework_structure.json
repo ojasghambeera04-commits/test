@@ -1,0 +1,38 @@
+{
+  "FolderStructure": {
+    "pages": "Contains Page Object classes representing the application's UI components.",
+    "tests": "Contains test scripts written in Pytest format.",
+    "utils": "Contains utility functions, helper methods, and custom modules.",
+    "config": "Contains configuration files such as environment variables and driver settings."
+  },
+  "Files": [
+    {
+      "FileName": "pages/login_page.py",
+      "Purpose": "Defines the LoginPage class with methods to interact with the login page."
+    },
+    {
+      "FileName": "tests/test_login.py",
+      "Purpose": "Contains test cases for login functionality."
+    },
+    {
+      "FileName": "utils/logger.py",
+      "Purpose": "Provides logging functionality for the framework."
+    },
+    {
+      "FileName": "config/config.yaml",
+      "Purpose": "Stores configuration settings such as URLs and credentials."
+    },
+    {
+      "FileName": "conftest.py",
+      "Purpose": "Defines reusable fixtures for driver setup and teardown."
+    },
+    {
+      "FileName": "pytest.ini",
+      "Purpose": "Configures Pytest settings such as markers and test discovery."
+    },
+    {
+      "FileName": "requirements.txt",
+      "Purpose": "Lists all dependencies required for the framework."
+    }
+  ]
+}
